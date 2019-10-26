@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 快速建立網頁</title>
+    <link rel="icon shortcut" href="./img/favicon.ico">
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-primary ">
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#introSection">Intro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#featuresSection">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviewsSection">Reviews</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 " type="text" placeholder="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <header id="header" class="jumbotron">
+        <div class="container text-light text-center">
+
+            <h1 class="display-4 mb-3 wow fadeIn">The highest mountain on Taiwan Island </h1>
+            <p class="lead fadeIn">We focus on providing the project management &amp; data storage solutions.</p>
+        </div>
+    </header>
+    <section class="py-5" id="introSection">
+        <h1 class="section-title mb-5 text-center text-secondary">Intro</h1>
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-md-4 text-center wow bounceInRight" data-wow-duration="1s">
+
+                    <div class="icon text-primary py-3">
+                        <i class="fa fa-paper-plane fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-secondary">Fast Deploy</h3>
+                    <p>We'll deploy our service with shortest time.</p>
+                </div>
+                <div class="col-md-4 text-center wow bounceInRight" data-wow-duration="1s" data-wow-delay="1s">
+                    <div class="icon text-primary py-3">
+                        <i class="fa fa-briefcase fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-secondary">Stable</h3>
+                    <p>Everythings is setup ready, just waiting for your order.</p>
+                </div>
+                <div class="col-md-4 text-center wow bounceInRight" data-wow-duration="1s" data-wow-delay="2s">
+                    <div class="
+                    icon text-primary py-3">
+                        <i class="fa fa-diamond fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-secondary ">Persistence</h3>
+                    <p>Our software &amp; hardware service is always standby.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-2 col-sm-4 col-6 text-center ">
+                    <i class="fa fa-tree fa-2x text-secondary" aria-hidden="true"></i>
+                    <h5 class="mt-3 text-secondary">Cozy Office</h5>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 text-center ">
+                    <i class="fa fa-coffee fa-2x text-secondary" aria-hidden="true"></i>
+                    <h5 class="mt-3 text-secondary">Free coffee bar</h5>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 text-center ">
+                    <i class="fa fa-id-card-o fa-2x text-secondary" aria-hidden="true"></i>
+                    <h5 class="mt-3 text-secondary">Profesional Team</h5>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 text-center ">
+                    <i class="fa fa-language fa-2x text-secondary" aria-hidden="true"></i>
+                    <h5 class="mt-3 text-secondary">Linguist</h5>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 text-center ">
+                    <i class="fa fa-rocket fa-2x text-secondary" aria-hidden="true"></i>
+                    <h5 class="mt-3 text-secondary">Hackers Spirit</h5>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 text-center ">
+                    <i class="fa fa-graduation-cap fa-2x text-secondary" aria-hidden="true"></i>
+                    <h5 class="mt-3 text-secondary">Self-Learning</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="featuresSection" class="py-5 bg-secondary text-white">
+        <div class="container">
+            <h1 class="section-title mb-5 text-center">Features</h1>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <button data-toggle="collapse" data-target="#article1" class="btn btn-primary">Team</button>
+                    <button data-toggle="collapse" data-target="#article2" class="btn btn-primary">Location</button>
+
+                    <article class="  my-3 collapse show" id="article1">
+                        <h3>Team</h3>
+                        <p>Our team members started with only 10 people. We're Website developer, Security engineer,
+                            Graphic
+                            Designer, Information Architect , But before the company scaled up, we're all wears more
+                            than
+                            one hat. We provide different kinds of
+                            <strong>Project management, Security and Data Storage solution package</strong> for our
+                            customers </p>
+                    </article>
+                    <article class="my-3 collapse show" id="article2">
+                        <h3>Location</h3>
+                        <p>We're based in Taipei Taiwan. There are several international branch offices in Hong Kong,
+                            New York,
+                            Albuquerque, Dublin and GuangDong. You could contact the nearest office for you, or if
+                            you're
+                            interested to work with us. please follow our recruit news</p>
+                    </article>
+
+                    <nav class="nav nav-pills justify-content-center">
+                        <a class="nav-link active" data-toggle="tab" href="#article3">Article3</a>
+                        <a class="nav-link" data-toggle="tab" href="#article4">Article4</a>
+
+                    </nav>
+
+                    <div class="tab-content">
+                        <article id="article3" class="my-3 tab-pane fade show active">
+                            <h3>Environment</h3>
+                            <p>We have a cozy office environment not just create casual atmosphere for daily working
+                                time,
+                                but also
+                                encourage our employee stay for the internal self-learning project hosted by our HR and
+                                Software
+                                teams. It’s fun to learn challenging new things. We provide lots of courses in the
+                                topic of
+                                <strong>Languages learning, Software skill and Negotiation skill trainings.</strong>
+                                Check
+                                out more details
+                            </p>
+                        </article>
+                        <article id="article4" class="my-3 tab-pane fade">
+                            <h3>Philosophy</h3>
+                            <p>We always keep our bussiness and products simple. So it will always be easy to learn and
+                                use. Our
+                                goal is making it simple but effective. Even though it might be the first time to use
+                                that
+                                kinds
+                                of product, we'll try to make sure every steps will be clear to understand for you. If
+                                needs
+                                any helps, our technical support team will be always standing by.
+                            </p>
+                        </article>
+                    </div>
+
+                    <iframe width="100%" height="400" class="mt-4" src="https://www.youtube.com/embed/f77SKdyn-1Y"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviewsSection" class="py-5">
+
+        <div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel1" data-slide-to="1"></li>
+                <li data-target="#carousel1" data-slide-to="2"></li>
+                <li data-target="#carousel1" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <div id="carouselImage1" class="carousel-item active">
+                    <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=First slide">
+                </div>
+
+                <div id="carouselImage2" class="carousel-item">
+                    <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide">
+                </div>
+
+                <div id="carouselImage3" class="carousel-item">
+                    <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide">
+                </div>
+
+                <div id="carouselImage4" class="carousel-item">
+                    <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Fourth slide">
+                </div>
+
+            </div>
+
+
+
+            <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#carousel1" role=" button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+        <div id="carousel2" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel2" data-slide-to="1"></li>
+
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-2">
+                            <img class="img-responsive rounded-circle" src="img/reviewer-1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <h3 class="title">Singer</h3>
+                            <h4 class="name">Robert Smiths</h4>
+                            <p>I don't care if Monday's blue.
+                                Tuesday's gray and Wednesday too.
+                                Thursday I don't care about you.
+                                It's Friday I'm in love.
+                                Monday you can fall apart.
+                                Tuesday Wednesday break my heart.
+                                Oh, Thursday doesn't even start.
+                                It's Friday I'm in love</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-2">
+                            <img class="img-responsive rounded-circle " src="img/reviewer-2.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <h3 class="title">Painter</h3>
+                            <h4 class="name">Lazy Jane</h4>
+                            <p>Working the village shop.
+                                Putting a poster up.
+                                Dreaming of anything.
+                                Dreaming of the time when you're free.
+                                From all the trouble you're in.
+                                In the mud, on your knees.
+                                Trying hard not to please.
+                                Anyone, all the time.
+                                Being a rebel is fine.
+                                But you go all the way to being brutal</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+
+
+    </section>
+
+    <section id="startNowSection" class="bg-secondary py-5">
+
+        <div class="row justify-content-center my-5">
+            <div class="col-md-3">
+                <h4 class="text-center text-white mb-4">New Version Released!</h4>
+                <button data-toggle="modal" data-target="#modal1" class="btn btn-lg btn-block btn-primary">Start
+                    Now</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="my-input">Email</label>
+                        <input id="my-input" class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="my-input">Password</label>
+                        <input id="my-input" class="form-control" type="password">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <section id="gallerySection">
+        <div class="row">
+            <div id="galleryImage1" class="col-md-3 col-sm-6">
+                <div class="galleryText">Photo1</div>
+            </div>
+            <div id="galleryImage2" class="col-md-3 col-sm-6">
+                <div class="galleryText">Photo2</div>
+            </div>
+            <div id="galleryImage3" class="col-md-3 col-sm-6">
+                <div class="galleryText">Photo3</div>
+            </div>
+            <div id="galleryImage4" class="col-md-3 col-sm-6">
+                <div class="galleryText">Photo4</div>
+            </div>
+            <div id="galleryImage5" class="col-md-3 col-sm-6">
+                <div class="galleryText">Photo5</div>
+            </div>
+            <div id="galleryImage6" class="col-md-3 col-sm-6">
+                <div class="galleryText">Photo6</div>
+            </div>
+            <div id="galleryImage7" class="col-md-3 col-sm-6">
+                <div class="galleryText">Photo7</div>
+            </div>
+            <div id="galleryImage8" class="col-md-3 col-sm-6">
+                <div class="galleryText">Photo8</div>
+            </div>
+        </div>
+    </section>
+
+    <div id="map"></div>
+
+    <footer id="footer" class="bg-secondary text-white pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="footer-list col-md-3">
+                    <h4>Contact Us</h4>
+                    <a href="mailto:service@brand.com">service@brand.com</a>
+                </div>
+                <div class="footer-list col-md-3">
+                    <h5 class="text-uppercase">Company</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Bonus</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-list col-md-3">
+                    <h5 class="text-uppercase">Product</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Enterprice</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Security</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-list col-md-3">
+                    <h5 class="text-uppercase">Resource</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Guilde</a>
+                        </li>
+                        <li>
+                            <a href="#">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#">API</a>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="./js/all.js"></script>
+</body>
+
+</html>
